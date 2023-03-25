@@ -6,6 +6,7 @@ import Shorten from '@/components/Shorten';
 import Stats from '@/components/Stats';
 import Feature from '@/components/Feature';
 import Footer from '@/components/Footer';
+import Cta from '@/components/Cta';
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function Home() {
 				<Shorten />
 				<Stats />
 				<Feature />
+				<Cta />
 				<Footer />
 			</main>
 		</>
